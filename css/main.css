@@ -89,8 +89,8 @@ html{
 h1>span {
   background-color:#242337;
   line-height:1.4;
-  box-shadow: 10px 0 0px 0px #242337, -10px 0 0px 0px #242337;
-  padding: 7px 0px;
+  box-shadow: 8px 0 0px 0px #242337, -8px 0 0px 0px #242337;
+  padding: 5px 0px;
 }
 
 /* ===================================================================

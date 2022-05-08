@@ -77,7 +77,7 @@ html{
 }
 
 .vision-text {
-  padding:0px 20px;
+  padding:0px 0px;
   hyphens: auto; 
 	text-align: justify
 }
@@ -88,9 +88,15 @@ html{
 
 h1>span {
   background-color:#242337;
-  /* line-height:1.5rem; */
+  line-height:1.4;
   box-shadow: 10px 0 0px 0px #242337, -10px 0 0px 0px #242337;
   padding: 4px 0px;
+}
+
+@media only screen and (max-width: 500px) {
+  h1>span {
+    line-height:1.7;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -2407,7 +2413,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 #vision-slider p {
   font-family: "muli-regular", sans-serif;
-  font-size: 3.2rem;
+  font-size: 2.8rem;
   line-height: 1.5;
   color: #303030;
 }

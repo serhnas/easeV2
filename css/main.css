@@ -1563,6 +1563,40 @@ h1.intro-header::before {
   vertical-align: bottom;
 }
 
+.demo-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 175px 0px 50px 0px;
+}
+
+.demo-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  .demo-video {
+    max-width: 720px;
+    max-height: 405px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .demo-video {
+    max-width: 560px;
+    max-height: 315px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .demo-video {
+    max-width: 400px;
+    max-height: 225px;
+  }
+}
+
 .home-content .contents {
   position: relative;
 }

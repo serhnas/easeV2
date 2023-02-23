@@ -1889,14 +1889,14 @@ h1.intro-header::before {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  padding-top: 21rem;
+  padding-top: 15rem;
   z-index: 500;
-  width: 40%;
+  width: 43%;
   text-align: right;
 }
 
 .home-image-right img {
-  vertical-align: bottom;
+  vertical-align: top;
   width: 90%;
 }
 

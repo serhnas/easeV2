@@ -228,10 +228,16 @@ body::-webkit-scrollbar {
   font-weight: 900;
 }
 .home-image {
-  width: 100%;
+  width: 50%;
   margin-top: var(--dl-space-space-sixunits);
   object-fit: cover;
   margin-bottom: var(--dl-space-space-sixunits);
+}
+@media(max-width: 479px) {
+  .home-image {
+    width: 100%;
+    height: auto;
+  }
 }
 .home-freshly-cooked {
   color: rgb(36, 35, 55);
@@ -283,6 +289,7 @@ body::-webkit-scrollbar {
   align-self: center;
   margin-top: var(--dl-space-space-twounits);
   object-fit: cover;
+  padding: 0 1rem;
 }
 .home-contact2 {
   width: 100%;
@@ -632,9 +639,11 @@ body::-webkit-scrollbar {
   }
   .home-taste-the-possibilities {
     width: 100%;
+    padding: 0 2rem;
   }
   .home-freshly-cooked {
     width: 100%;
+    padding: 0 2rem;
   }
   .home-render {
     height: 1030px;
@@ -765,8 +774,8 @@ body::-webkit-scrollbar {
     margin-top: var(--dl-space-space-twounits);
   }
   .home-image1 {
-    width: 840px;
-    height: 309px;
+    width: 100%;
+    height: auto;
   }
   .home-button {
     left: 0px;
@@ -869,8 +878,8 @@ body::-webkit-scrollbar {
     font-size: 2.5rem;
   }
   .home-image1 {
-    width: 647px;
-    height: 238px;
+    width: 100%;
+    height: auto;
   }
   .home-get-in-touch {
     width: auto;
@@ -1061,8 +1070,8 @@ body::-webkit-scrollbar {
     font-size: 1.7rem;
   }
   .home-image1 {
-    width: 417px;
-    height: 162px;
+    width: 100%;
+    height: auto;
     padding-bottom: 0px;
   }
   .home-get-in-touch {

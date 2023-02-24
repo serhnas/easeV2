@@ -146,7 +146,7 @@ body::-webkit-scrollbar {
 }
 .legal-notice-text04 {
   color: rgb(36, 35, 55);
-  width: auto;
+  width: 100%;
   font-size: 1rem;
   align-self: flex-start;
   margin-top: 12rem;
@@ -432,7 +432,7 @@ body::-webkit-scrollbar {
   }
   .legal-notice-text04 {
     color: rgb(36, 35, 55);
-    width: auto;
+    width: 100%;
     font-size: 1rem;
     align-self: flex-start;
     font-family: Montserrat;

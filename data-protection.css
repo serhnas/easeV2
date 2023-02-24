@@ -146,7 +146,7 @@ body::-webkit-scrollbar {
 }
 .data-protection-text004 {
   color: rgb(36, 35, 55);
-  width: auto;
+  width: 100%;
   font-size: 1rem;
   align-self: flex-start;
   margin-top: 12rem;
@@ -158,6 +158,16 @@ body::-webkit-scrollbar {
   font-size: 3rem;
   font-style: normal;
   font-weight: 800;
+}
+@media(max-width: 660px) {
+  .data-protection-text005 {
+    font-size: 2.5rem;
+  }
+}
+@media(max-width: 550px) {
+  .data-protection-text005 {
+    font-size: 1.5rem;
+  }
 }
 .data-protection-text006 {
   color: #242337;
@@ -1744,7 +1754,7 @@ body::-webkit-scrollbar {
   }
   .data-protection-text004 {
     color: rgb(36, 35, 55);
-    width: auto;
+    width: 100%;
     font-size: 1rem;
     align-self: flex-start;
     font-family: Montserrat;
@@ -2361,9 +2371,9 @@ body::-webkit-scrollbar {
   }
 }
 @media(max-width: 991px) {
-  .data-protection-content {
+  /* .data-protection-content {
     height: 659px;
-  }
+  } */
   .data-protection-li14 {
     width: 100%;
   }
@@ -2382,9 +2392,9 @@ body::-webkit-scrollbar {
   .data-protection-menu-icon {
     fill: #D9D9D9;
   }
-  .data-protection-content {
+  /* .data-protection-content {
     height: 626px;
-  }
+  } */
   .data-protection-footer {
     height: 1139px;
   }
@@ -2499,6 +2509,7 @@ body::-webkit-scrollbar {
     color: rgb(36, 35, 55);
     font-size: 1rem;
     font-family: Montserrat;
+    width:100%;
   }
   .data-protection-text007 {
     font-size: 3rem;

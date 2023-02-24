@@ -1,0 +1,3078 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.data-protection-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.data-protection-navbar-interactive {
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  position: fixed;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #12121c;
+}
+.data-protection-navlink {
+  display: contents;
+}
+.data-protection-ease-logo {
+  width: var(--dl-size-size-medium);
+  height: auto;
+  text-decoration: none;
+}
+.data-protection-desktop-menu {
+  display: flex;
+}
+.data-protection-nav {
+  flex: 0 0 auto;
+  color: #7f8089;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.data-protection-home {
+  font-size: 16px;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: Montserrat;
+  font-weight: 700;
+  text-decoration: none;
+}
+.data-protection-home:hover {
+  color: #ffffff;
+}
+.data-protection-text:hover {
+  color: #ffffff;
+}
+.data-protection-burger-menu {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.data-protection-menu-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.data-protection-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #12121c;
+}
+.data-protection-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.data-protection-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.data-protection-ease-logo1 {
+  width: 100px;
+  height: auto;
+}
+.data-protection-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.data-protection-close-icon {
+  fill: #7f8089;
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.data-protection-nav2 {
+  flex: 0 0 auto;
+  color: #7f8089;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.data-protection-home1 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.data-protection-contact {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.data-protection-content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+.data-protection-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.data-protection-container3 {
+  flex: 0 0 auto;
+  width: 65%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.data-protection-text004 {
+  color: rgb(36, 35, 55);
+  width: auto;
+  font-size: 1rem;
+  align-self: flex-start;
+  margin-top: 12rem;
+  text-align: left;
+  font-family: Montserrat;
+  margin-bottom: 4rem;
+}
+.data-protection-text005 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 800;
+}
+.data-protection-text006 {
+  color: #242337;
+  font-size: 1rem;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 800;
+}
+.data-protection-text007 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text008 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.data-protection-text009 {
+  color: #242337;
+  font-size: 2rem;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+.data-protection-text010 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text011 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.data-protection-text012 {
+  color: #242337;
+  font-size: 1.8rem;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+.data-protection-text013 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text015 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text016 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text017 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text018 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text019 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.data-protection-text020 {
+  color: #242337;
+  font-size: 1.8rem;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+.data-protection-text021 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text022 {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.data-protection-text023 {
+  color: #242337;
+  font-size: 1.4rem;
+  font-family: Montserrat;
+  font-weight: 500;
+}
+.data-protection-text024 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text026 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text027 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text028 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text029 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text030 {
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 500;
+}
+.data-protection-text031 {
+  color: #242337;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 500;
+}
+.data-protection-text032 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text034 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text035 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text036 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text037 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text039 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text040 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text041 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text042 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text043 {
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 500;
+}
+.data-protection-text044 {
+  color: #242337;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 500;
+}
+.data-protection-text045 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text047 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text048 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text049 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text050 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text051 {
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 500;
+}
+.data-protection-text052 {
+  color: #242337;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 500;
+}
+.data-protection-text053 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text055 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text056 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text057 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text058 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text060 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text061 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text062 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text063 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text064 {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+}
+.data-protection-text065 {
+  color: #242337;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+.data-protection-text066 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text068 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text069 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text070 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text071 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text073 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text074 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text075 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text076 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text077 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text078 {
+  color: #242337;
+  font-size: 2rem;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+.data-protection-text079 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text081 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text082 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text083 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text084 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text085 {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+}
+.data-protection-text086 {
+  color: #242337;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+.data-protection-text087 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text089 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text090 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text091 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text092 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text094 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text095 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text096 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text097 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text099 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text100 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text101 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text102 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text104 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text105 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text106 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text107 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text109 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text110 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text112 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text113 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text115 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text116 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text118 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text119 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text120 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text121 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text122 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text123 {
+  color: #242337;
+  font-size: 2rem;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+.data-protection-text124 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text125 {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+}
+.data-protection-text126 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text127 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text129 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text130 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text131 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text132 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text134 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text135 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text136 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text137 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text139 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text140 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text141 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text142 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text143 {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+}
+.data-protection-text144 {
+  color: #242337;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+.data-protection-text145 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text147 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text148 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text149 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text150 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text152 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text153 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text155 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text156 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text158 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text159 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text160 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text161 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text163 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text164 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text166 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text167 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text168 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text169 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text171 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text172 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text173 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text174 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text175 {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+}
+.data-protection-text176 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text177 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text179 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text180 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text181 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text182 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text183 {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+}
+.data-protection-text184 {
+  color: #242337;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+.data-protection-text185 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text187 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text188 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text189 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text190 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text191 {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+}
+.data-protection-text192 {
+  color: #242337;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+.data-protection-text193 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text195 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text196 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text197 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text198 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text199 {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+}
+.data-protection-text200 {
+  color: #242337;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+.data-protection-text201 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text203 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text204 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text205 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text206 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text208 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text209 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text210 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text211 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text212 {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+}
+.data-protection-text213 {
+  color: #242337;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+.data-protection-text214 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text216 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text217 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text218 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text219 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text220 {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+}
+.data-protection-text221 {
+  color: #242337;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+.data-protection-text222 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text224 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text225 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text226 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text227 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text228 {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+}
+.data-protection-text229 {
+  color: #242337;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+.data-protection-text230 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text232 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text233 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text234 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text235 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text236 {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+}
+.data-protection-text237 {
+  color: #242337;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+.data-protection-text238 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text240 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text241 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text242 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text243 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text245 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text246 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text248 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text249 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text251 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text252 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text254 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text255 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text257 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text258 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text259 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text260 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text261 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text262 {
+  color: #242337;
+  font-size: 2rem;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+.data-protection-text263 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text264 {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+}
+.data-protection-text265 {
+  color: #242337;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+.data-protection-text266 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text268 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text269 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text270 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text271 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text273 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text274 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text275 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text276 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text278 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text279 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text280 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text281 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text282 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text283 {
+  color: #242337;
+  font-size: 2rem;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+.data-protection-text284 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text285 {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+}
+.data-protection-text286 {
+  color: #242337;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+.data-protection-text287 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text289 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text290 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text291 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text292 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text294 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text295 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text296 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text297 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text298 {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+}
+.data-protection-text299 {
+  color: #242337;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+.data-protection-text300 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text302 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text303 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text304 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text305 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text307 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text308 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-text309 {
+  color: #242337;
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-text310 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.data-protection-footer {
+  width: 100%;
+  height: 460px;
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: #191927;
+}
+.data-protection-container4 {
+  top: 91px;
+  flex: 0 0 auto;
+  left: 0px;
+  right: 0px;
+  width: auto;
+  height: auto;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  justify-content: center;
+}
+.data-protection-ul {
+  width: 346px;
+  padding-left: 0px;
+}
+.data-protection-li {
+  color: #52525a;
+  width: 150px;
+  border-color: #7f8089;
+  border-width: 1px;
+  margin-bottom: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0.5px;
+}
+.data-protection-text311 {
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+.data-protection-li01 {
+  color: #52525a;
+  width: 269px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.data-protection-text312 {
+  color: rgb(127, 128, 137);
+  font-size: 1rem;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 400;
+}
+.data-protection-ul1 {
+  width: 305px;
+  padding-left: 0px;
+}
+.data-protection-li02 {
+  color: #52525a;
+  width: 150px;
+  border-color: #7f8089;
+  border-width: 1px;
+  margin-bottom: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0.5px;
+}
+.data-protection-text313 {
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+.data-protection-li03 {
+  color: #52525a;
+  width: 269px;
+  font-size: 1rem;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.data-protection-navlink1 {
+  color: rgb(127, 128, 137);
+  font-size: 1rem;
+  transition: 0.3s;
+  font-family: Montserrat;
+  text-decoration: none;
+}
+.data-protection-navlink1:hover {
+  color: #ffffff;
+}
+.data-protection-li04 {
+  color: #52525a;
+  width: 269px;
+  font-size: 1rem;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.data-protection-li05 {
+  color: #52525a;
+  width: 269px;
+  font-size: 1rem;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.data-protection-navlink2 {
+  color: rgb(127, 128, 137);
+  font-size: 1rem;
+  transition: 0.3s;
+  font-family: Montserrat;
+  text-decoration: none;
+}
+.data-protection-navlink2:hover {
+  color: #ffffff;
+}
+.data-protection-li06 {
+  color: #52525a;
+  width: 269px;
+  font-size: 1rem;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.data-protection-navlink3 {
+  color: rgb(127, 128, 137);
+  font-size: 1rem;
+  transition: 0.3s;
+  font-family: Montserrat;
+  text-decoration: none;
+}
+.data-protection-navlink3:hover {
+  color: #ffffff;
+}
+.data-protection-ul2 {
+  width: 305px;
+  padding-left: 0px;
+}
+.data-protection-li07 {
+  color: #52525a;
+  width: 150px;
+  border-color: #7f8089;
+  border-width: 1px;
+  margin-bottom: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0.5px;
+}
+.data-protection-text314 {
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+.data-protection-li08 {
+  color: #52525a;
+  width: 269px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.data-protection-text315 {
+  color: rgb(127, 128, 137);
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-li09 {
+  color: #52525a;
+  width: 269px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.data-protection-text316 {
+  color: rgb(127, 128, 137);
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-li10 {
+  color: #52525a;
+  width: 269px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.data-protection-text317 {
+  color: rgb(127, 128, 137);
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-li11 {
+  color: #52525a;
+  width: 269px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.data-protection-text318 {
+  color: rgb(127, 128, 137);
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-li12 {
+  color: #52525a;
+  width: 269px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.data-protection-text321 {
+  color: rgb(127, 128, 137);
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-ul3 {
+  width: 305px;
+  padding-left: 0px;
+}
+.data-protection-li13 {
+  color: #52525a;
+  width: 150px;
+  border-color: #7f8089;
+  border-width: 1px;
+  margin-bottom: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0.5px;
+}
+.data-protection-text324 {
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+.data-protection-li14 {
+  color: #52525a;
+  width: 100%;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.data-protection-text325 {
+  color: rgb(127, 128, 137);
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+.data-protection-copyright {
+  left: 0px;
+  color: #7f8089;
+  right: 0px;
+  bottom: 41px;
+  margin: auto;
+  position: absolute;
+  font-size: 1rem;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 400;
+}
+@media(max-width: 1600px) {
+  .data-protection-container2 {
+    width: 100%;
+  }
+  .data-protection-container3 {
+    width: 80%;
+  }
+  .data-protection-text004 {
+    color: rgb(36, 35, 55);
+    width: auto;
+    font-size: 1rem;
+    align-self: flex-start;
+    font-family: Montserrat;
+  }
+  .data-protection-text007 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text010 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text013 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text016 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text018 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text021 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text024 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text027 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text029 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text032 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text035 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text037 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text040 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text042 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text045 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text048 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text050 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text053 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text056 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text058 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text061 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text063 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text066 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text069 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text071 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text074 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text076 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text079 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text082 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text084 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text087 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text090 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text092 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text095 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text097 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text100 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text102 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text105 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text107 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text110 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text113 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text116 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text119 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text121 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text124 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text127 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text130 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text132 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text135 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text137 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text140 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text142 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text145 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text148 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text150 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text153 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text156 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text159 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text161 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text164 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text167 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text169 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text172 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text174 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text177 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text180 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text182 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text185 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text188 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text190 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text193 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text196 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text198 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text201 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text204 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text206 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text209 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text211 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text214 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text217 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text219 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text222 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text225 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text227 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text230 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text233 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text235 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text238 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text241 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text243 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text246 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text249 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text252 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text255 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text258 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text260 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text263 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text266 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text269 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text271 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text274 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text276 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text279 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text281 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text284 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text287 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text290 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text292 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text295 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text297 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text300 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text303 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text305 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text308 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text310 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-ul {
+    padding-left: 0px;
+  }
+  .data-protection-ul1 {
+    padding-left: 0px;
+  }
+  .data-protection-ul2 {
+    padding-left: 0px;
+  }
+  .data-protection-ul3 {
+    padding-left: 0px;
+  }
+  .data-protection-li14 {
+    width: 100%;
+  }
+}
+@media(max-width: 1200px) {
+  .data-protection-ul {
+    width: 300px;
+  }
+  .data-protection-li01 {
+    width: 262px;
+  }
+  .data-protection-ul1 {
+    width: 200px;
+  }
+  .data-protection-ul2 {
+    width: 200px;
+  }
+  .data-protection-ul3 {
+    width: 200px;
+  }
+  .data-protection-li14 {
+    width: 100%;
+  }
+}
+@media(max-width: 991px) {
+  .data-protection-content {
+    height: 659px;
+  }
+  .data-protection-li14 {
+    width: 100%;
+  }
+}
+@media(max-width: 767px) {
+  .data-protection-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .data-protection-desktop-menu {
+    display: none;
+  }
+  .data-protection-burger-menu {
+    display: flex;
+  }
+  .data-protection-menu-icon {
+    fill: #D9D9D9;
+  }
+  .data-protection-content {
+    height: 626px;
+  }
+  .data-protection-footer {
+    height: 1139px;
+  }
+  .data-protection-container4 {
+    height: 867px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .data-protection-ul {
+    padding-left: 0px;
+  }
+  .data-protection-li {
+    width: 100%;
+    text-align: center;
+  }
+  .data-protection-li01 {
+    width: 100%;
+    text-align: center;
+  }
+  .data-protection-text312 {
+    width: 100%;
+    text-align: center;
+  }
+  .data-protection-ul1 {
+    width: 300px;
+    padding-left: 0px;
+  }
+  .data-protection-li02 {
+    width: 100%;
+    text-align: center;
+  }
+  .data-protection-li03 {
+    width: 100%;
+    text-align: center;
+  }
+  .data-protection-li04 {
+    width: 100%;
+    text-align: center;
+  }
+  .data-protection-li05 {
+    width: 100%;
+    text-align: center;
+  }
+  .data-protection-li06 {
+    width: 100%;
+    text-align: center;
+  }
+  .data-protection-ul2 {
+    width: 300px;
+  }
+  .data-protection-li07 {
+    width: 100%;
+    text-align: center;
+  }
+  .data-protection-li08 {
+    width: 100%;
+    text-align: center;
+  }
+  .data-protection-li09 {
+    width: 100%;
+    text-align: center;
+  }
+  .data-protection-li10 {
+    width: 100%;
+    text-align: center;
+  }
+  .data-protection-li11 {
+    width: 100%;
+    text-align: center;
+  }
+  .data-protection-li12 {
+    width: 100%;
+    text-align: center;
+  }
+  .data-protection-ul3 {
+    width: 300px;
+    padding-left: 0px;
+  }
+  .data-protection-li13 {
+    width: 100%;
+    text-align: center;
+  }
+  .data-protection-li14 {
+    width: 100%;
+    text-align: center;
+  }
+  .data-protection-copyright {
+    width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .data-protection-navbar-interactive {
+    padding-top: var(--dl-space-space-oneandhalfunits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .data-protection-menu-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .data-protection-mobile-menu {
+    padding: 16px;
+  }
+  .data-protection-content {
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .data-protection-text004 {
+    color: rgb(36, 35, 55);
+    font-size: 1rem;
+    font-family: Montserrat;
+  }
+  .data-protection-text007 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text010 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text013 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text016 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text018 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text021 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text024 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text027 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text029 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text032 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text035 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text037 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text040 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text042 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text045 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text048 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text050 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text053 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text056 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text058 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text061 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text063 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text066 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text069 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text071 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text074 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text076 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text079 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text082 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text084 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text087 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text090 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text092 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text095 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text097 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text100 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text102 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text105 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text107 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text110 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text113 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text116 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text119 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text121 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text124 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text127 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text130 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text132 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text135 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text137 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text140 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text142 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text145 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text148 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text150 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text153 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text156 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text159 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text161 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text164 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text167 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text169 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text172 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text174 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text177 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text180 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text182 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text185 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text188 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text190 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text193 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text196 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text198 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text201 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text204 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text206 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text209 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text211 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text214 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text217 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text219 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text222 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text225 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text227 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text230 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text233 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text235 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text238 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text241 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text243 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text246 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text249 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text252 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text255 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text258 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text260 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text263 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text266 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text269 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text271 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text274 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text276 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text279 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text281 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text284 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text287 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text290 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text292 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text295 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text297 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text300 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text303 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text305 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text308 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .data-protection-text310 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+}

@@ -123,6 +123,9 @@ body::-webkit-scrollbar {
 .home-home1 {
   margin-bottom: var(--dl-space-space-unit);
 }
+.home-home1:hover {
+  color: #ffffff;
+}
 .home-contact1 {
   margin-bottom: var(--dl-space-space-unit);
 }

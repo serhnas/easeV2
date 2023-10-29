@@ -21,6 +21,7 @@
   top: 0px;
   left: 0px;
   width: 1599px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   height: 715px;
   display: flex;
   position: absolute;
@@ -31,11 +32,11 @@
   background-position: center;
 }
 .coming-soon-page-image {
-  top: 0px;
+  top: 26px;
   left: 0px;
   right: 0px;
-  width: 677px;
-  height: 724px;
+  width: 622px;
+  height: 665px;
   margin: auto;
   position: absolute;
   object-fit: cover;
@@ -120,6 +121,10 @@
   .coming-soon-page-background {
     width: 1199px;
   }
+  .coming-soon-page-image {
+    width: 562px;
+    height: 599px;
+  }
   .coming-soon-page-image3 {
     top: 252px;
     width: 305px;
@@ -182,17 +187,18 @@
 }
 @media(max-width: 425px) {
   .coming-soon-page-image {
-    width: 339px;
-    height: 361px;
+    width: 302px;
+    height: 321px;
   }
   .coming-soon-page-image3 {
     top: 338px;
-    right: -36px;
+    right: -45px;
     width: 138px;
     height: 87px;
   }
   .coming-soon-page-image4 {
     top: 347px;
+    left: -57px;
     width: 159px;
     height: 119px;
   }
@@ -219,8 +225,8 @@
     width: 478px;
   }
   .coming-soon-page-image {
-    width: 272px;
-    height: 289px;
+    width: 223px;
+    height: 236px;
   }
   .coming-soon-page-image3 {
     top: 317px;
@@ -235,7 +241,7 @@
     height: 99px;
   }
   .coming-soon-page-address {
-    font-size: 16px;
+    font-size: 14px;
   }
   .coming-soon-page-instagram {
     top: 35px;

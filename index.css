@@ -1,0 +1,435 @@
+.coming-soon-page-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.coming-soon-page-coming-soon-page {
+  width: 100%;
+  height: 715px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: flex-end;
+  background-color: rgba(255, 255, 255, 1);
+}
+.coming-soon-page-background {
+  top: 0px;
+  left: 0px;
+  width: 1599px;
+  /* border: 2px dashed rgba(120, 120, 120, 0.4); */
+  height: 715px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  background-size: cover;
+  justify-content: flex-end;
+  background-image: url("public/external/part12166-mmc-1600w.png");
+  background-position: center;
+}
+.coming-soon-page-stroke {
+  top: 255px;
+  left: 481px;
+  width: 678px;
+  height: 336px;
+  position: absolute;
+  object-fit: cover;
+}
+.coming-soon-page-coming {
+  top: 143px;
+  left: 405px;
+  width: 446.3999938964844px;
+  height: 126.5999984741211px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.coming-soon-page-coming1 {
+  top: 5px;
+  left: 4px;
+  color: #c3daef;
+  height: auto;
+  position: absolute;
+  font-size: 100px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.coming-soon-page-coming2 {
+  top: 0px;
+  left: 0px;
+  color: rgba(19, 46, 93, 1);
+  height: auto;
+  position: absolute;
+  font-size: 100px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.coming-soon-page-heroimageblurr {
+  top: 159px;
+  left: 493px;
+  width: 614px;
+  height: 473px;
+  position: absolute;
+}
+.coming-soon-page-soon {
+  top: 513.4000244140625px;
+  left: 875px;
+  width: 318.3999938964844px;
+  height: 126.5999984741211px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.coming-soon-page-soon1 {
+  top: 5px;
+  left: 5px;
+  color: #c3daef;
+  height: auto;
+  position: absolute;
+  font-size: 100px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.coming-soon-page-soon2 {
+  top: 0px;
+  left: 0px;
+  color: rgba(19, 46, 93, 1);
+  height: auto;
+  position: absolute;
+  font-size: 100px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.coming-soon-page-lemonblurr {
+  top: 412px;
+  left: 1000px;
+  width: 134px;
+  height: 134px;
+  position: absolute;
+}
+.coming-soon-page-tofublurr {
+  top: 14px;
+  left: 560px;
+  width: 183px;
+  height: 182px;
+  position: absolute;
+}
+.coming-soon-page-image3 {
+  top: 239px;
+  right: 0px;
+  width: 441px;
+  height: 287px;
+  position: absolute;
+}
+.coming-soon-page-image4 {
+  top: 273px;
+  left: 0px;
+  width: 500px;
+  height: 381px;
+  position: absolute;
+}
+.coming-soon-page-address {
+  top: 655px;
+  left: 0px;
+  right:0px;
+  color: rgba(37, 90, 136, 1);
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.coming-soon-page-instagram {
+  top: 29px;
+  fill: #132e5d;
+  right: 60px;
+  width: 46px;
+  height: 46px;
+  position: absolute;
+}
+.coming-soon-page-logo1 {
+  top: 39px;
+  left: 60px;
+  width: 132px;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.coming-soon-page-image {
+  width: 132px;
+  object-fit: cover;
+}
+@media(max-width: 1200px) {
+  .coming-soon-page-coming-soon-page {
+    width: auto;
+    align-self: stretch;
+  }
+  .coming-soon-page-background {
+    width: 1199px;
+  }
+  .coming-soon-page-stroke {
+    top: 297px;
+    left: 325px;
+    width: 569px;
+    height: 283px;
+    position: absolute;
+  }
+  .coming-soon-page-coming {
+    top: 194px;
+    left: 196px;
+  }
+  .coming-soon-page-coming2 {
+    top: 0px;
+    left: 0px;
+  }
+  .coming-soon-page-heroimageblurr {
+    top: 214px;
+    left: 347px;
+    width: 506px;
+    height: 389px;
+  }
+  .coming-soon-page-soon {
+    left: 623px;
+    bottom: 77px;
+  }
+  .coming-soon-page-soon1 {
+    top: 0px;
+    left: 0px;
+  }
+  .coming-soon-page-soon2 {
+    top: -5px;
+    left: -5px;
+  }
+  .coming-soon-page-lemonblurr {
+    top: 407px;
+    left: 750px;
+  }
+  .coming-soon-page-tofublurr {
+    top: 37px;
+    left: 318px;
+  }
+  .coming-soon-page-image3 {
+    top: 252px;
+    width: 349px;
+    height: 225px;
+  }
+  .coming-soon-page-image4 {
+    top: 273px;
+    left: -29px;
+    width: 387px;
+    height: 294px;
+  }
+  .coming-soon-page-address {
+    left: 350px;
+    right: 350px;
+    bottom: 36px;
+  }
+  .coming-soon-page-instagram {
+    top: 39px;
+    fill: #132e5d;
+    right: 60px;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+  }
+  .coming-soon-page-logo1 {
+    width: 132px;
+  }
+  .coming-soon-page-image {
+    width: 132px;
+  }
+}
+@media(max-width: 991px) {
+  .coming-soon-page-background {
+    width: 990px;
+  }
+  .coming-soon-page-stroke {
+    top: 309px;
+    left: 236px;
+    width: 522px;
+    height: 258px;
+  }
+  .coming-soon-page-coming {
+    top: 197px;
+    left: 115px;
+    position: absolute;
+  }
+  .coming-soon-page-coming1 {
+    right: 0px;
+    bottom: 0px;
+  }
+  .coming-soon-page-coming2 {
+    right: 0px;
+    bottom: 0px;
+  }
+  .coming-soon-page-heroimageblurr {
+    left: 235px;
+    bottom: -308px;
+  }
+  .coming-soon-page-soon {
+    left: 490px;
+    bottom: 69px;
+  }
+  .coming-soon-page-lemonblurr {
+    top: 410px;
+    left: 609px;
+  }
+  .coming-soon-page-tofublurr {
+    top: 60px;
+    left: 258px;
+  }
+  .coming-soon-page-image3 {
+    width: 293px;
+    height: 188px;
+  }
+  .coming-soon-page-image4 {
+    width: 314px;
+    height: 238px;
+  }
+  .coming-soon-page-address {
+    left: 0px;
+    right: 0px;
+  }
+}
+@media(max-width: 767px) {
+  .coming-soon-page-stroke {
+    top: 318px;
+    left: 142px;
+    width: 465px;
+    height: 229px;
+  }
+  .coming-soon-page-coming {
+    top: 226px;
+    left: 110px;
+  }
+  .coming-soon-page-heroimageblurr {
+    top: 286px;
+    left: 205px;
+    width: 351px;
+    height: 269px;
+  }
+  .coming-soon-page-soon {
+    top: 499px;
+    left: 301px;
+  }
+  .coming-soon-page-lemonblurr {
+    top: 394px;
+    left: 483px;
+  }
+  .coming-soon-page-tofublurr {
+    top: 60px;
+    left: 217px;
+  }
+  .coming-soon-page-image3 {
+    top: 309px;
+    width: 239px;
+    height: 152px;
+  }
+  .coming-soon-page-image4 {
+    top: 309px;
+    width: 281px;
+    height: 212px;
+  }
+}
+@media(max-width: 479px) {
+  .coming-soon-page-background {
+    width: 478px;
+  }
+  .coming-soon-page-stroke {
+    top: 324px;
+    left: 82px;
+    width: 323px;
+    height: 158px;
+  }
+  .coming-soon-page-coming {
+    top: 240px;
+    left: 63px;
+    width: 313px;
+    height: 92px;
+  }
+  .coming-soon-page-coming1 {
+    font-size: 70px;
+  }
+  .coming-soon-page-coming2 {
+    font-size: 70px;
+  }
+  .coming-soon-page-heroimageblurr {
+    top: 279px;
+    left: 94px;
+    width: 288px;
+    height: 220px;
+  }
+  .coming-soon-page-soon {
+    top: 462px;
+    left: 190px;
+    width: 229px;
+    height: 80px;
+  }
+  .coming-soon-page-soon1 {
+    font-size: 70px;
+  }
+  .coming-soon-page-soon2 {
+    font-size: 70px;
+  }
+  .coming-soon-page-lemonblurr {
+    top: 393px;
+    left: 326px;
+    width: 80px;
+    height: 80px;
+  }
+  .coming-soon-page-tofublurr {
+    top: 149px;
+    left: 134px;
+    width: 122px;
+    height: 121px;
+  }
+  .coming-soon-page-image3 {
+    top: 303px;
+    right: -53px;
+    width: 172px;
+    height: 109px;
+  }
+  .coming-soon-page-image4 {
+    top: 324px;
+    left: -55px;
+    width: 181px;
+    height: 136px;
+  }
+  .coming-soon-page-address {
+    font-size: 20px;
+  }
+}

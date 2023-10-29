@@ -153,20 +153,31 @@
   .coming-soon-page-background {
     width: 990px;
   }
+  .coming-soon-page-image {
+    width: 403px;
+    height: 429px;
+  }
   .coming-soon-page-image3 {
-    top: 333px;
-    right: -49px;
+    top: 295px;
+    right: -69px;
     width: 231px;
     height: 147px;
   }
   .coming-soon-page-image4 {
-    top: 353px;
+    top: 315px;
+    left: -51px;
     width: 256px;
     height: 193px;
   }
   .coming-soon-page-address {
     left: 0px;
+    color: rgb(37, 90, 136);
     right: 0px;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
   }
 }
 @media(max-width: 425px) {

@@ -5,6 +5,7 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
+  background-color: #fcf3cc;
 }
 .coming-soon-page-coming-soon-page {
   width: 100%;
@@ -15,20 +16,6 @@
   align-items: flex-start;
   flex-shrink: 0;
   justify-content: flex-end;
-  background-color: rgba(255, 255, 255, 1);
-}
-.coming-soon-page-background {
-  top: 0px;
-  left: 0px;
-  width: 1599px;
-  height: 715px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  background-size: cover;
-  justify-content: flex-end;
-  background-image: url("public/external/part12166-mmc-1600w.png");
-  background-position: center;
 }
 .coming-soon-page-image {
   top: 26px;
@@ -117,9 +104,6 @@
     width: auto;
     align-self: stretch;
   }
-  .coming-soon-page-background {
-    width: 1199px;
-  }
   .coming-soon-page-image {
     width: 562px;
     height: 599px;
@@ -154,9 +138,6 @@
   }
 }
 @media(max-width: 768px) {
-  .coming-soon-page-background {
-    width: 990px;
-  }
   .coming-soon-page-image {
     width: 403px;
     height: 429px;
@@ -220,9 +201,6 @@
   }
 }
 @media(max-width: 320px) {
-  .coming-soon-page-background {
-    width: 478px;
-  }
   .coming-soon-page-image {
     width: 223px;
     height: 236px;

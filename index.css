@@ -65,6 +65,21 @@
   height: 46px;
   position: absolute;
 }
+.menu-link {
+  color: rgba(37, 90, 136, 1);
+  top: 35px;
+  right: 130px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
 .coming-soon-page-logo1 {
   top: 39px;
   left: 60px;
@@ -130,6 +145,21 @@
     height: 35px;
     position: absolute;
   }
+  .menu-link {
+    color: rgba(37, 90, 136, 1);
+    top: 41px;
+    right: 130px;
+    height: auto;
+    position: absolute;
+    font-size: 22px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
   .coming-soon-page-logo1 {
     width: 132px;
   }
@@ -165,6 +195,21 @@
     line-height: normal;
     text-decoration: none;
   }
+  .menu-link {
+    color: rgba(37, 90, 136, 1);
+    top: 41px;
+    right: 115px;
+    height: auto;
+    position: absolute;
+    font-size: 22px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
 }
 @media(max-width: 425px) {
   .coming-soon-page-image {
@@ -191,6 +236,21 @@
     right: 35px;
     width: 29px;
     height: 29px;
+  }
+  .menu-link {
+    color: rgba(37, 90, 136, 1);
+    top: 41px;
+    right: 90px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
   }
   .coming-soon-page-logo1 {
     top: 38px;
@@ -227,6 +287,21 @@
     right: 30px;
     width: 27px;
     height: 27px;
+  }
+  .menu-link {
+    color: rgba(37, 90, 136, 1);
+    top: 38px;
+    right: 75px;
+    height: auto;
+    position: absolute;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
   }
   .coming-soon-page-logo1 {
     top: 37px;
